@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingreso Interactivo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="card login">
+      <div class="title">
+        <div class="logo">❤️</div>
+        <h1>Bienvenida</h1>
+      </div>
+      <p class="subtitle">Ingresa con tu usuario y contraseña</p>
+
+      <form id="loginForm">
+        <div class="field">
+          <input type="text" id="username" class="input" placeholder=" " required>
+          <label for="username" class="label">Usuario</label>
+        </div>
+
+        <div class="field">
+          <input type="password" id="password" class="input" placeholder=" " required>
+          <label for="password" class="label">Contraseña</label>
+        </div>
+
+        <button type="submit" class="btn">Ingresar</button>
+        <div id="error" class="error"></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="particles"></div>
+  <script src="script.js"></script>
+</body>
+</html
